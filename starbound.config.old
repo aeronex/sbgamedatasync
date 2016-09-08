@@ -325,7 +325,7 @@
     "PlayerDropItem" : [{
         "mods" : [],
         "type" : "key",
-        "value" : "G"
+        "value" : "-"
       }],
     "PlayerInteract" : [{
         "mods" : [],
@@ -383,7 +383,6 @@
         "value" : "Esc"
       }]
   },
-  "borderless" : false,
   "checkAssetsDigest" : false,
   "clearPlayerFiles" : false,
   "clearUniverseFiles" : false,
@@ -391,7 +390,7 @@
   "clientP2PJoinable" : true,
   "configurationVersion" : {
     "basic" : 1,
-    "client" : 6
+    "client" : 5
   },
   "crafting" : {
     "filterHaveMaterials" : false
@@ -421,14 +420,14 @@
   "serverName" : "A Starbound Server",
   "serverUsers" : {
   },
-  "sfxVol" : 90,
+  "sfxVol" : 80,
   "speechBubbles" : true,
   "title" : {
     "multiPlayerAccount" : "aeronex",
     "multiPlayerAddress" : "66.228.44.229",
     "multiPlayerPort" : ""
   },
-  "tutorialMessages" : true,
+  "tutorialMessages" : false,
   "vsync" : true,
   "windowedResolution" : [1920, 1027],
   "zoomLevel" : 3
