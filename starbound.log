@@ -1,83 +1,95 @@
-[09:55:43.826] [Info] Root: Preparing Root...
-[09:55:43.828] [Info] Root: Done preparing Root.
-[09:55:43.828] [Info] Client Version 1.1.0 (windows x86_64) Source ID: eb229dcd10aad142c4b79af6c5b8dc8d39e7d792 Protocol: 724
-[09:55:43.828] [Info] Root: Scanning for asset sources in directory '..\assets\'
-[09:55:44.174] [Info] Root: Scanning for asset sources in directory '..\mods\'
-[09:55:44.174] [Warn] Root: Unrecognized file in asset directory 'mods_go_here', skipping
-[09:55:44.175] [Info] Root: Detected asset source named 'base' at '..\assets\packed.pak'
-[09:55:44.175] [Info] Root: Detected unnamed asset source at '..\assets\user'
-[09:55:44.175] [Info] Loading assets from: '..\assets\packed.pak'
-[09:55:44.606] [Info] Loading assets from: '..\assets\user'
-[09:55:45.478] [Info] Assets digest is 29aca1a3fb6c62022dbf038981baadb3334d93accb06d1774623dc520cb9563f
-[09:55:45.478] [Info] Root: Loaded Assets in 1.64961 seconds
-[09:55:45.483] [Info] Application: Initializing SDL Video
-[09:55:45.520] [Info] Application: Initializing SDL Joystick
-[09:55:45.563] [Info] Application: Initializing SDL Sound
-[09:55:45.723] [Info] Initialized Steam services
-[09:55:45.724] [Info] Application: Creating SDL Window
-[09:55:46.216] [Info] Application: Enabling VSync with late swap tearing
-[09:55:46.228] [Info] Application: Opened default audio device with 44.1khz / 16 bit stereo audio, 2048 sample size buffer
-[09:55:46.235] [Info] OpenGL version: '4.5.13417 Compatibility Profile Context 15.301.1901.0' vendor: 'ATI Technologies Inc.' renderer: 'AMD Radeon HD 6900 Series' shader: '4.40'
-[09:55:46.238] [Info] Application: initialization...
-[09:55:46.239] [Info] Root: Loaded Configuration in 0.000945152 seconds
-[09:55:46.241] [Info] Application: renderer initialization...
-[09:55:46.247] [Info] Root: Loaded ImageMetadataDatabase in 5.90924e-06 seconds
-[09:55:46.273] [Info] Application: main update loop...
-[09:55:46.313] [Info] No subscribed user generated content
-[09:55:46.318] [Info] Root: Loaded NameGenerator in 0.00446918 seconds
-[09:55:46.328] [Error] OpenGL errors this frame:  GL_INVALID_VALUE
-[09:55:46.407] [Info] Root: Loaded PlantDatabase in 0.0883436 seconds
-[09:55:46.711] [Info] Root: Loaded ObjectDatabase in 0.39771 seconds
-[09:55:46.805] [Info] Root: Loaded ProjectileDatabase in 0.397996 seconds
-[09:55:46.860] [Info] Root: Loaded MonsterDatabase in 0.147816 seconds
-[09:55:46.862] [Info] Root: Loaded StagehandDatabase in 0.00194815 seconds
-[09:55:46.867] [Info] Root: Loaded VehicleDatabase in 0.00448006 seconds
-[09:55:46.870] [Info] Root: Loaded PlayerFactory in 0.00354331 seconds
-[09:55:46.871] [Info] Root: Loaded NpcDatabase in 0.0657843 seconds
-[09:55:46.874] [Info] Root: Loaded VersioningDatabase in 0.0028594 seconds
-[09:55:46.874] [Info] Root: Loaded EntityFactory in 0.0039498 seconds
-[09:55:46.924] [Info] Root: Loaded ParticleDatabase in 0.0497867 seconds
-[09:55:47.167] [Info] Root: Loaded MaterialDatabase in 0.293534 seconds
-[09:55:47.175] [Info] Root: Loaded TerrainDatabase in 0.00759356 seconds
-[09:55:47.215] [Info] Root: Loaded BiomeDatabase in 0.0398217 seconds
-[09:55:47.216] [Info] Root: Loaded LiquidsDatabase in 0.000705987 seconds
-[09:55:47.228] [Info] Root: Loaded StatusEffectDatabase in 0.0125831 seconds
-[09:55:47.335] [Info] Root: Loaded DamageDatabase in 0.107157 seconds
-[09:55:47.342] [Info] Root: Loaded EffectSourceDatabase in 0.0066792 seconds
-[09:55:47.345] [Info] Root: Loaded FunctionDatabase in 0.00279751 seconds
-[09:55:47.368] [Info] Root: Loaded TreasureDatabase in 0.0230559 seconds
-[09:55:47.607] [Info] Root: Loaded DungeonDefinitions in 0.239398 seconds
-[09:55:47.607] [Info] Root: Loaded TilesetDatabase in 3.45218e-05 seconds
-[09:55:47.611] [Info] Root: Loaded StatisticsDatabase in 0.00396535 seconds
-[09:55:47.612] [Info] Root: Loaded EmoteProcessor in 0.000185361 seconds
-[09:55:47.621] [Info] Root: Loaded SpeciesDatabase in 0.00897319 seconds
-[09:55:47.651] [Info] Root: Loaded QuestTemplateDatabase in 0.0306821 seconds
-[09:55:47.654] [Info] Root: Loaded AiDatabase in 0.00216586 seconds
-[09:55:47.655] [Info] Root: Loaded TechDatabase in 0.00120951 seconds
-[09:55:47.666] [Info] Root: Loaded CodexDatabase in 0.0106131 seconds
-[09:55:47.747] [Info] Root: Loaded BehaviorDatabase in 0.0817711 seconds
-[09:55:47.751] [Info] Root: Loaded DanceDatabase in 0.00304756 seconds
-[09:55:47.757] [Info] Root: Loaded SpawnTypeDatabase in 0.00579345 seconds
-[09:55:47.760] [Info] Root: Loaded RadioMessageDatabase in 0.00314242 seconds
-[09:55:49.353] [Info] Root: Loaded ItemDatabase in 2.48208 seconds
-[09:55:49.512] [Info] Root: Loaded CollectionDatabase in 1.75254 seconds
-[09:55:50.482] [Info] Root: Writing runtime configuration to '..\storage\starbound.config'
-[09:56:37.340] [Info] UniverseClient: Sending Handshake Response
-[09:56:37.418] [Info] UniverseClient: Joined server as client 19
-[09:56:37.803] [Info] Setting steam rich presence connection as address 66.228.44.229:21025
-[09:56:37.808] [Error] Cannot set Steam achievement kill10poptops
-[09:57:56.464] [Info] Client received world stop packet, leaving: Removed
-[10:01:51.600] [Info] Client received world stop packet, leaving: Removed
-[10:09:08.737] [Info] Client received world stop packet, leaving: Removed
-[10:26:40.567] [Info] Client received world stop packet, leaving: Removed
-[10:29:28.428] [Info] Client received world stop packet, leaving: Removed
-[10:38:58.977] [Info] Client received world stop packet, leaving: Removed
-[10:39:08.662] [Info] UniverseClient: Client disconnecting...
-[10:39:08.759] [Info] Client received world stop packet, leaving: Removed
-[10:39:08.993] [Info] Clearing steam rich presence connection
-[10:39:10.530] [Info] Application: quit requested
-[10:39:10.530] [Info] Application: quitting...
-[10:39:10.530] [Info] Application: shutdown...
-[10:39:10.717] [Info] Root: Shutting down Root
-[10:39:10.956] [Info] Application: Destroying SDL Window
-[10:39:10.962] [Info] Application: stopped gracefully
+[11:02:44.651] [Info] Root: Preparing Root...
+[11:02:44.652] [Info] Root: Done preparing Root.
+[11:02:44.652] [Info] Client Version 1.1.1 (windows x86_64) Source ID: 82604f6097b124f2ed38ee58a7ae18c51e916dd8 Protocol: 724
+[11:02:44.652] [Info] Root: Scanning for asset sources in directory '..\assets\'
+[11:02:44.990] [Info] Root: Scanning for asset sources in directory '..\mods\'
+[11:02:44.991] [Warn] Root: Unrecognized file in asset directory 'mods_go_here', skipping
+[11:02:44.991] [Info] Root: Detected asset source named 'base' at '..\assets\packed.pak'
+[11:02:44.991] [Info] Root: Detected unnamed asset source at '..\assets\user'
+[11:02:44.991] [Info] Loading assets from: '..\assets\packed.pak'
+[11:02:45.442] [Info] Loading assets from: '..\assets\user'
+[11:02:46.321] [Info] Assets digest is 528b64eb591f6ac8439856bcd1ac129fc705daadc48cbff8f884a97941457a32
+[11:02:46.321] [Info] Root: Loaded Assets in 1.66911 seconds
+[11:02:46.325] [Info] Application: Initializing SDL Video
+[11:02:46.362] [Info] Application: Initializing SDL Joystick
+[11:02:46.405] [Info] Application: Initializing SDL Sound
+[11:02:46.500] [Info] Initialized Steam services
+[11:02:46.500] [Info] Application: Creating SDL Window
+[11:02:46.864] [Info] Application: Enabling VSync with late swap tearing
+[11:02:46.874] [Info] Application: Opened default audio device with 44.1khz / 16 bit stereo audio, 2048 sample size buffer
+[11:02:46.879] [Info] OpenGL version: '4.5.13417 Compatibility Profile Context 15.301.1901.0' vendor: 'ATI Technologies Inc.' renderer: 'AMD Radeon HD 6900 Series' shader: '4.40'
+[11:02:46.881] [Info] Application: initialization...
+[11:02:46.882] [Info] Root: Loaded Configuration in 0.00102446 seconds
+[11:02:46.885] [Info] Application: renderer initialization...
+[11:02:46.887] [Info] Root: Loaded ImageMetadataDatabase in 6.2203e-06 seconds
+[11:02:46.905] [Info] Application: main update loop...
+[11:02:46.913] [Info] No subscribed user generated content
+[11:02:46.919] [Info] Root: Loaded NameGenerator in 0.00474473 seconds
+[11:02:46.926] [Error] OpenGL errors this frame:  GL_INVALID_VALUE
+[11:02:47.005] [Info] Root: Loaded PlantDatabase in 0.0857821 seconds
+[11:02:47.312] [Info] Root: Loaded ObjectDatabase in 0.396 seconds
+[11:02:47.406] [Info] Root: Loaded ProjectileDatabase in 0.401361 seconds
+[11:02:47.442] [Info] Root: Loaded MonsterDatabase in 0.129828 seconds
+[11:02:47.443] [Info] Root: Loaded StagehandDatabase in 0.00111683 seconds
+[11:02:47.446] [Info] Root: Loaded VehicleDatabase in 0.00316233 seconds
+[11:02:47.449] [Info] Root: Loaded PlayerFactory in 0.00273904 seconds
+[11:02:47.456] [Info] Root: Loaded NpcDatabase in 0.0499469 seconds
+[11:02:47.457] [Info] Root: Loaded VersioningDatabase in 0.00103877 seconds
+[11:02:47.457] [Info] Root: Loaded EntityFactory in 0.00845972 seconds
+[11:02:47.493] [Info] Root: Loaded ParticleDatabase in 0.0356418 seconds
+[11:02:47.713] [Info] Root: Loaded MaterialDatabase in 0.255432 seconds
+[11:02:47.717] [Info] Root: Loaded TerrainDatabase in 0.00441444 seconds
+[11:02:47.747] [Info] Root: Loaded BiomeDatabase in 0.0297874 seconds
+[11:02:47.748] [Info] Root: Loaded LiquidsDatabase in 0.000870822 seconds
+[11:02:47.753] [Info] Root: Loaded StatusEffectDatabase in 0.00517734 seconds
+[11:02:47.864] [Info] Root: Loaded DamageDatabase in 0.110879 seconds
+[11:02:47.868] [Info] Root: Loaded EffectSourceDatabase in 0.00396566 seconds
+[11:02:47.870] [Info] Root: Loaded FunctionDatabase in 0.00253502 seconds
+[11:02:47.899] [Info] Root: Loaded TreasureDatabase in 0.0287489 seconds
+[11:02:48.122] [Info] Root: Loaded DungeonDefinitions in 0.222904 seconds
+[11:02:48.122] [Info] Root: Loaded TilesetDatabase in 4.10532e-05 seconds
+[11:02:48.124] [Info] Root: Loaded StatisticsDatabase in 0.0017743 seconds
+[11:02:48.124] [Info] Root: Loaded EmoteProcessor in 6.37565e-05 seconds
+[11:02:48.129] [Info] Root: Loaded SpeciesDatabase in 0.00533565 seconds
+[11:02:48.144] [Info] Root: Loaded QuestTemplateDatabase in 0.0148491 seconds
+[11:02:48.146] [Info] Root: Loaded AiDatabase in 0.00147604 seconds
+[11:02:48.147] [Info] Root: Loaded TechDatabase in 0.00120578 seconds
+[11:02:48.152] [Info] Root: Loaded CodexDatabase in 0.00532756 seconds
+[11:02:48.234] [Info] Root: Loaded BehaviorDatabase in 0.0820398 seconds
+[11:02:48.237] [Info] Root: Loaded DanceDatabase in 0.00243084 seconds
+[11:02:48.245] [Info] Root: Loaded SpawnTypeDatabase in 0.00823424 seconds
+[11:02:48.249] [Info] Root: Loaded RadioMessageDatabase in 0.00373987 seconds
+[11:02:49.659] [Info] Root: Writing runtime configuration to '..\storage\starbound.config'
+[11:02:49.760] [Info] Root: Loaded ItemDatabase in 2.30475 seconds
+[11:02:49.921] [Info] Root: Loaded CollectionDatabase in 1.67059 seconds
+[11:02:59.609] [Info] UniverseClient: Sending Handshake Response
+[11:02:59.668] [Info] UniverseClient: Joined server as client 1
+[11:03:00.020] [Info] Setting steam rich presence connection as address 66.228.44.229:21025
+[11:03:00.026] [Error] Cannot set Steam achievement kill10poptops
+[11:03:08.439] [Info] Chat: <SAIL> You've reached the limit of how many crew members you can bring with you. Drop some off on your ship to expand your crew further.
+[11:03:51.669] [Info] Client received world stop packet, leaving: Removed
+[11:07:40.265] [Info] Client received world stop packet, leaving: Removed
+[11:07:57.119] [Info] Client received world stop packet, leaving: Removed
+[11:09:51.613] [Info] Client received world stop packet, leaving: Removed
+[11:17:40.473] [Info] Client received world stop packet, leaving: Removed
+[11:31:16.591] [Info] Skipped event recording for nonexistent entity 12482
+[11:40:25.303] [Info] Client received world stop packet, leaving: Removed
+[11:41:00.459] [Info] Client received world stop packet, leaving: Removed
+[11:45:02.799] [Info] Client received world stop packet, leaving: Removed
+[11:47:05.796] [Info] Client received world stop packet, leaving: Removed
+[11:50:14.111] [Info] Client received world stop packet, leaving: Removed
+[11:50:21.809] [Info] Client received world stop packet, leaving: Removed
+[11:55:24.744] [Info] Skipped event recording for nonexistent entity 5751
+[12:00:57.234] [Info] Skipped event recording for nonexistent entity 11174
+[12:00:57.272] [Info] Skipped event recording for nonexistent entity 11161
+[12:04:08.928] [Info] Skipped event recording for nonexistent entity 17563
+[12:05:02.180] [Info] Client received world stop packet, leaving: Removed
+[12:08:54.595] [Info] UniverseClient: Client disconnecting...
+[12:08:54.718] [Info] Client received world stop packet, leaving: Removed
+[12:08:54.922] [Info] Clearing steam rich presence connection
+[12:08:56.250] [Info] Application: quit requested
+[12:08:56.250] [Info] Application: quitting...
+[12:08:56.250] [Info] Application: shutdown...
+[12:08:56.417] [Info] Root: Shutting down Root
+[12:08:56.671] [Info] Application: Destroying SDL Window
+[12:08:56.687] [Info] Application: stopped gracefully
