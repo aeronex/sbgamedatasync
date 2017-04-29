@@ -1,137 +1,92 @@
-[08:58:21.331] [Info] Root: Preparing Root...
-[08:58:21.333] [Info] Root: Done preparing Root.
-[08:58:21.333] [Info] Client Version 1.2.3b (windows x86_64) Source ID: 69bc1c906122a1c61453c6cff15aa088b613db78 Protocol: 729
-[08:58:21.333] [Info] Root: Scanning for asset sources in directory '..\assets\'
-[08:58:21.692] [Info] Root: Scanning for asset sources in directory '..\mods\'
-[08:58:21.692] [Warn] Root: Unrecognized file in asset directory 'mods_go_here', skipping
-[08:58:21.692] [Info] Root: Detected asset source named 'base' at '..\assets\packed.pak'
-[08:58:21.692] [Info] Root: Detected unnamed asset source at '..\assets\user'
-[08:58:21.692] [Info] Loading assets from: '..\assets\packed.pak'
-[08:58:22.123] [Info] Loading assets from: '..\assets\user'
-[08:58:23.016] [Info] Assets digest is 06cbcabd08c255b023a32ab90661887de878dffa9534c11a0de2b083efe882db
-[08:58:23.019] [Info] Root: Loaded Assets in 1.68285 seconds
-[08:58:23.023] [Info] Application: Initializing SDL Video
-[08:58:23.059] [Info] Application: Initializing SDL Joystick
-[08:58:23.109] [Info] Application: Initializing SDL Sound
-[08:58:23.218] [Info] Initialized Steam services
-[08:58:23.219] [Info] Application: Creating SDL Window
-[08:58:24.753] [Info] Application: Enabling VSync with late swap tearing
-[08:58:24.772] [Info] Application: Opened default audio device with 44.1khz / 16 bit stereo audio, 2048 sample size buffer
-[08:58:24.779] [Info] OpenGL version: '4.5.13464 Compatibility Profile Context 21.19.407.0' vendor: 'ATI Technologies Inc.' renderer: 'AMD Radeon HD 7700 Series' shader: '4.50'
-[08:58:24.782] [Info] Application: initialization...
-[08:58:24.788] [Info] Root: Loaded Configuration in 0.00421913 seconds
-[08:58:24.790] [Info] Application: renderer initialization...
-[08:58:24.792] [Info] detected supported OpenGL texture size 16384, using atlasNumCells 128
-[08:58:24.796] [Info] detected supported OpenGL texture size 16384, using atlasNumCells 64
-[08:58:24.798] [Info] Root: Loaded ImageMetadataDatabase in 0.00019749 seconds
-[08:58:24.828] [Info] Application: main update loop...
-[08:58:24.870] [Info] No subscribed user generated content
-[08:58:24.884] [Info] Root: Loaded NameGenerator in 0.0118811 seconds
-[08:58:24.889] [Error] OpenGL errors this frame:  GL_INVALID_VALUE
-[08:58:25.022] [Info] Root: Loaded PlantDatabase in 0.137351 seconds
-[08:58:25.210] [Info] Root: Loaded ObjectDatabase in 0.337398 seconds
-[08:58:25.540] [Info] Root: Loaded ProjectileDatabase in 0.518158 seconds
-[08:58:25.609] [Info] Root: Loaded MonsterDatabase in 0.39907 seconds
-[08:58:25.611] [Info] Root: Loaded StagehandDatabase in 0.0021755 seconds
-[08:58:25.615] [Info] Root: Loaded VehicleDatabase in 0.00412894 seconds
-[08:58:25.618] [Info] Root: Loaded NpcDatabase in 0.0781603 seconds
-[08:58:25.620] [Info] Root: Loaded PlayerFactory in 0.00416906 seconds
-[08:58:25.624] [Info] Root: Loaded VersioningDatabase in 0.00378092 seconds
-[08:58:25.624] [Info] Root: Loaded EntityFactory in 0.00523892 seconds
-[08:58:25.714] [Info] Root: Loaded ParticleDatabase in 0.0905048 seconds
-[08:58:26.019] [Info] Root: Loaded MaterialDatabase in 0.395344 seconds
-[08:58:26.030] [Info] Root: Loaded TerrainDatabase in 0.0106281 seconds
-[08:58:26.074] [Info] Root: Loaded BiomeDatabase in 0.0442377 seconds
-[08:58:26.075] [Info] Root: Loaded LiquidsDatabase in 0.00109319 seconds
-[08:58:26.095] [Info] Root: Loaded StatusEffectDatabase in 0.0199822 seconds
-[08:58:26.368] [Info] Root: Writing runtime configuration to '..\storage\starbound.config'
-[08:58:26.410] [Info] Root: Loaded DamageDatabase in 0.31468 seconds
-[08:58:26.416] [Info] Root: Loaded EffectSourceDatabase in 0.00597446 seconds
-[08:58:26.420] [Info] Root: Loaded FunctionDatabase in 0.00411619 seconds
-[08:58:26.466] [Info] Root: Loaded TreasureDatabase in 0.04605 seconds
-[08:58:26.725] [Info] Root: Loaded DungeonDefinitions in 0.258296 seconds
-[08:58:26.725] [Info] Root: Loaded TilesetDatabase in 0.000494502 seconds
-[08:58:26.728] [Info] Root: Loaded StatisticsDatabase in 0.00293964 seconds
-[08:58:26.729] [Info] Root: Loaded EmoteProcessor in 0.0002317 seconds
-[08:58:26.735] [Info] Root: Loaded SpeciesDatabase in 0.00650535 seconds
-[08:58:26.754] [Info] Root: Loaded QuestTemplateDatabase in 0.0183818 seconds
-[08:58:26.755] [Info] Root: Loaded AiDatabase in 0.00182561 seconds
-[08:58:26.757] [Info] Root: Loaded TechDatabase in 0.0012459 seconds
-[08:58:26.768] [Info] Root: Loaded CodexDatabase in 0.011135 seconds
-[08:58:27.075] [Info] Root: Loaded BehaviorDatabase in 0.308018 seconds
-[08:58:27.078] [Info] Root: Loaded DanceDatabase in 0.00300993 seconds
-[08:58:27.084] [Info] Root: Loaded SpawnTypeDatabase in 0.00552008 seconds
-[08:58:27.088] [Info] Root: Loaded RadioMessageDatabase in 0.00366616 seconds
-[08:58:28.423] [Info] Root: Loaded ItemDatabase in 2.80349 seconds
-[08:58:28.585] [Info] Root: Loaded CollectionDatabase in 1.49668 seconds
-[08:58:29.726] [Info] detected supported OpenGL texture size 16384, using atlasNumCells 256
-[08:58:48.746] [Info] UniverseClient: Sending Handshake Response
-[08:58:48.821] [Info] UniverseClient: Joined server as client 2
-[08:58:49.113] [Info] detected supported OpenGL texture size 16384, using atlasNumCells 64
-[08:58:49.114] [Info] detected supported OpenGL texture size 16384, using atlasNumCells 128
-[08:58:49.119] [Info] detected supported OpenGL texture size 16384, using atlasNumCells 256
-[08:58:49.120] [Info] detected supported OpenGL texture size 16384, using atlasNumCells 256
-[08:58:49.145] [Info] Setting steam rich presence connection as address 66.228.44.229:21025
-[08:58:49.150] [Error] Cannot set Steam achievement kill10poptops
-[08:58:49.150] [Error] Cannot set Steam achievement dismisscrewmember
-[09:07:55.933] [Info] Chat: <Esther> Hmmm, how curious... I need to cross-reference this.
-[09:08:37.881] [Info] Client received world stop packet, leaving: Removed
-[09:14:35.448] [Info] Chat: <Esther> This clue hints at hidden information.
-[09:14:52.393] [Info] Chat: <Esther> Interesting. This will certainly have a bearing on my research.
-[09:15:00.821] [Info] Chat: <Esther> Even the smallest piece of evidence can help to uncover the grandest secrets of the universe.
-[09:15:09.994] [Info] Chat: <Esther> This clue hints at hidden information.
-[09:15:17.777] [Info] Chat: <Esther> This is excellent, everything you find contributes to the formation of a theory.
-[09:15:26.708] [Info] Chat: <Esther> Hm, I wonder...
-[09:15:33.978] [Info] Chat: <Esther> Even the smallest piece of evidence can help to uncover the grandest secrets of the universe.
-[09:15:57.778] [Error] Client-server connection no longer valid!
-[09:15:57.867] [Info] Clearing steam rich presence connection
-[09:16:01.736] [Info] detected supported OpenGL texture size 16384, using atlasNumCells 256
-[09:17:27.735] [Info] UniverseClient: Sending Handshake Response
-[09:17:27.810] [Info] UniverseClient: Joined server as client 1
-[09:17:28.114] [Info] detected supported OpenGL texture size 16384, using atlasNumCells 64
-[09:17:28.114] [Info] detected supported OpenGL texture size 16384, using atlasNumCells 128
-[09:17:28.119] [Info] detected supported OpenGL texture size 16384, using atlasNumCells 256
-[09:17:28.119] [Info] detected supported OpenGL texture size 16384, using atlasNumCells 256
-[09:17:28.214] [Info] Setting steam rich presence connection as address 66.228.44.229:21025
-[09:17:28.218] [Error] Cannot set Steam achievement kill10poptops
-[09:17:28.218] [Error] Cannot set Steam achievement dismisscrewmember
-[09:17:38.091] [Info] Client received world stop packet, leaving: Removed
-[09:18:39.161] [Info] Chat: <Esther> Even the smallest piece of evidence can help to uncover the grandest secrets of the universe.
-[09:22:50.770] [Info] Chat: <Esther> How peculiar! But surprising information can be even more valuable than expected information...
-[09:23:30.167] [Info] Chat: <Esther> Interesting. This will certainly have a bearing on my research.
-[09:24:10.469] [Info] Chat: <Esther> Even the smallest piece of evidence can help to uncover the grandest secrets of the universe.
-[09:30:20.132] [Info] Chat: <Esther> How peculiar! But surprising information can be even more valuable than expected information...
-[09:36:52.678] [Info] Client received world stop packet, leaving: Removed
-[09:39:04.851] [Info] Chat: <SAIL> You've reached the limit of how many crew members you can bring with you. Drop some off on your ship to expand your crew further.
-[09:39:14.984] [Info] Chat: <SAIL> You've reached the limit of how many crew members you can bring with you. Drop some off on your ship to expand your crew further.
-[09:39:29.698] [Info] Client received world stop packet, leaving: Removed
-[09:41:27.699] [Info] Root: Writing runtime configuration to '..\storage\starbound.config'
-[09:42:17.817] [Info] Client received world stop packet, leaving: Removed
-[09:42:32.734] [Info] Root: Writing runtime configuration to '..\storage\starbound.config'
-[09:43:22.788] [Info] Root: Writing runtime configuration to '..\storage\starbound.config'
-[09:43:51.690] [Warn] Unable to set requested display resolution 2560, 1440
-[09:43:52.810] [Info] Root: Writing runtime configuration to '..\storage\starbound.config'
-[09:43:54.136] [Warn] Unable to set requested display resolution 2560, 1440
-[09:44:00.503] [Warn] Unable to set requested display resolution 2560, 1440
-[09:44:07.829] [Info] Root: Writing runtime configuration to '..\storage\starbound.config'
-[09:44:27.849] [Info] Root: Writing runtime configuration to '..\storage\starbound.config'
-[09:47:42.960] [Info] Root: Writing runtime configuration to '..\storage\starbound.config'
-[09:54:26.714] [Info] Client received world stop packet, leaving: Removed
-[09:55:30.498] [Info] Client received world stop packet, leaving: Removed
-[09:55:44.815] [Info] Client received world stop packet, leaving: Removed
-[09:58:08.468] [Info] Client received world stop packet, leaving: Removed
-[10:03:31.824] [Info] Client received world stop packet, leaving: Removed
-[10:06:05.577] [Info] Client received world stop packet, leaving: Removed
-[10:06:53.127] [Info] Client received world stop packet, leaving: Removed
-[10:16:50.738] [Info] Client received world stop packet, leaving: Removed
-[10:17:47.673] [Info] Client received world stop packet, leaving: Removed
-[10:18:49.774] [Info] Client received world stop packet, leaving: Removed
-[10:18:54.647] [Info] UniverseClient: Client disconnecting...
-[10:18:54.762] [Info] Client received world stop packet, leaving: Removed
-[10:18:55.005] [Info] Clearing steam rich presence connection
-[10:18:56.574] [Info] Application: quit requested
-[10:18:56.574] [Info] Application: quitting...
-[10:18:56.574] [Info] Application: shutdown...
-[10:18:56.788] [Info] Root: Shutting down Root
-[10:18:57.069] [Info] Application: Destroying SDL Window
-[10:18:57.079] [Info] Application: stopped gracefully
+[10:31:26.589] [Info] Root: Preparing Root...
+[10:31:26.590] [Info] Root: Done preparing Root.
+[10:31:26.590] [Info] Client Version 1.2.3b (windows x86_64) Source ID: 69bc1c906122a1c61453c6cff15aa088b613db78 Protocol: 729
+[10:31:26.590] [Info] Root: Scanning for asset sources in directory '..\assets\'
+[10:31:26.909] [Info] Root: Scanning for asset sources in directory '..\mods\'
+[10:31:26.909] [Warn] Root: Unrecognized file in asset directory 'mods_go_here', skipping
+[10:31:26.909] [Info] Root: Detected asset source named 'base' at '..\assets\packed.pak'
+[10:31:26.909] [Info] Root: Detected unnamed asset source at '..\assets\user'
+[10:31:26.909] [Info] Loading assets from: '..\assets\packed.pak'
+[10:31:27.311] [Info] Loading assets from: '..\assets\user'
+[10:31:28.195] [Info] Assets digest is 06cbcabd08c255b023a32ab90661887de878dffa9534c11a0de2b083efe882db
+[10:31:28.195] [Info] Root: Loaded Assets in 1.60508 seconds
+[10:31:28.199] [Info] Application: Initializing SDL Video
+[10:31:28.240] [Info] Application: Initializing SDL Joystick
+[10:31:28.280] [Info] Application: Initializing SDL Sound
+[10:31:28.360] [Info] Initialized Steam services
+[10:31:28.361] [Info] Application: Creating SDL Window
+[10:31:28.634] [Info] Application: Enabling VSync with late swap tearing
+[10:31:28.650] [Info] Application: Opened default audio device with 44.1khz / 16 bit stereo audio, 2048 sample size buffer
+[10:31:28.655] [Info] OpenGL version: '4.5.13464 Compatibility Profile Context 21.19.407.0' vendor: 'ATI Technologies Inc.' renderer: 'AMD Radeon HD 7700 Series' shader: '4.50'
+[10:31:28.656] [Info] Application: initialization...
+[10:31:28.657] [Info] Root: Loaded Configuration in 0.000894458 seconds
+[10:31:28.659] [Info] Application: renderer initialization...
+[10:31:28.660] [Info] detected supported OpenGL texture size 16384, using atlasNumCells 128
+[10:31:28.661] [Info] detected supported OpenGL texture size 16384, using atlasNumCells 64
+[10:31:28.662] [Info] Root: Loaded ImageMetadataDatabase in 5.28712e-06 seconds
+[10:31:28.679] [Info] Application: main update loop...
+[10:31:28.687] [Info] No subscribed user generated content
+[10:31:28.698] [Info] Root: Loaded NameGenerator in 0.00979892 seconds
+[10:31:28.700] [Error] OpenGL errors this frame:  GL_INVALID_VALUE
+[10:31:28.792] [Info] Root: Loaded PlantDatabase in 0.0938397 seconds
+[10:31:28.965] [Info] Root: Loaded ObjectDatabase in 0.276926 seconds
+[10:31:29.103] [Info] Root: Loaded MonsterDatabase in 0.13816 seconds
+[10:31:29.135] [Info] Root: Loaded NpcDatabase in 0.0321022 seconds
+[10:31:29.136] [Info] Root: Loaded StagehandDatabase in 0.000942664 seconds
+[10:31:29.138] [Info] Root: Loaded VehicleDatabase in 0.00183152 seconds
+[10:31:29.141] [Info] Root: Loaded PlayerFactory in 0.00259505 seconds
+[10:31:29.169] [Info] Root: Loaded ProjectileDatabase in 0.377122 seconds
+[10:31:29.171] [Info] Root: Loaded VersioningDatabase in 0.00263019 seconds
+[10:31:29.171] [Info] Root: Loaded EntityFactory in 0.0307338 seconds
+[10:31:29.200] [Info] Root: Loaded ParticleDatabase in 0.0286432 seconds
+[10:31:29.407] [Info] Root: Loaded MaterialDatabase in 0.236102 seconds
+[10:31:29.413] [Info] Root: Loaded TerrainDatabase in 0.00524732 seconds
+[10:31:29.439] [Info] Root: Loaded BiomeDatabase in 0.0262487 seconds
+[10:31:29.439] [Info] Root: Loaded LiquidsDatabase in 0.000524048 seconds
+[10:31:29.444] [Info] Root: Loaded StatusEffectDatabase in 0.00492418 seconds
+[10:31:29.659] [Info] Root: Loaded DamageDatabase in 0.214947 seconds
+[10:31:29.665] [Info] Root: Loaded EffectSourceDatabase in 0.00521902 seconds
+[10:31:29.668] [Info] Root: Loaded FunctionDatabase in 0.00313247 seconds
+[10:31:29.693] [Info] Root: Loaded TreasureDatabase in 0.0252712 seconds
+[10:31:29.922] [Info] Root: Loaded DungeonDefinitions in 0.227755 seconds
+[10:31:29.922] [Info] Root: Loaded TilesetDatabase in 3.54545e-05 seconds
+[10:31:29.923] [Info] Root: Loaded StatisticsDatabase in 0.00162346 seconds
+[10:31:29.924] [Info] Root: Loaded EmoteProcessor in 5.97136e-05 seconds
+[10:31:29.930] [Info] Root: Loaded SpeciesDatabase in 0.00593993 seconds
+[10:31:29.940] [Info] Root: Loaded QuestTemplateDatabase in 0.0108753 seconds
+[10:31:29.942] [Info] Root: Loaded AiDatabase in 0.00130779 seconds
+[10:31:29.943] [Info] Root: Loaded TechDatabase in 0.000693236 seconds
+[10:31:29.947] [Info] Root: Loaded CodexDatabase in 0.00449593 seconds
+[10:31:30.255] [Info] Root: Loaded BehaviorDatabase in 0.308218 seconds
+[10:31:30.258] [Info] Root: Loaded DanceDatabase in 0.00236832 seconds
+[10:31:30.262] [Info] Root: Loaded SpawnTypeDatabase in 0.00479885 seconds
+[10:31:30.265] [Info] Root: Loaded RadioMessageDatabase in 0.00248464 seconds
+[10:31:31.502] [Info] Root: Loaded ItemDatabase in 2.33277 seconds
+[10:31:31.597] [Info] Root: Writing runtime configuration to '..\storage\starbound.config'
+[10:31:31.653] [Info] Root: Loaded CollectionDatabase in 1.38785 seconds
+[10:31:32.579] [Info] detected supported OpenGL texture size 16384, using atlasNumCells 256
+[10:31:53.424] [Info] UniverseClient: Sending Handshake Response
+[10:31:53.516] [Error] UniverseClient: Join failed: No such account 'aeronex' or incorrect password
+[10:31:53.516] [Error] No such account 'aeronex' or incorrect password
+[10:31:56.741] [Info] detected supported OpenGL texture size 16384, using atlasNumCells 256
+[10:32:02.787] [Info] UniverseClient: Sending Handshake Response
+[10:32:02.859] [Info] UniverseClient: Joined server as client 4
+[10:32:03.097] [Info] detected supported OpenGL texture size 16384, using atlasNumCells 64
+[10:32:03.098] [Info] detected supported OpenGL texture size 16384, using atlasNumCells 128
+[10:32:03.103] [Info] detected supported OpenGL texture size 16384, using atlasNumCells 256
+[10:32:03.103] [Info] detected supported OpenGL texture size 16384, using atlasNumCells 256
+[10:32:03.126] [Info] Setting steam rich presence connection as address 66.228.44.229:21025
+[10:32:03.130] [Error] Cannot set Steam achievement kill10poptops
+[10:32:03.130] [Error] Cannot set Steam achievement dismisscrewmember
+[10:32:22.429] [Info] Client received world stop packet, leaving: Removed
+[10:44:41.147] [Info] Chat: <Esther> Hmmm, how curious... I need to cross-reference this.
+[11:04:18.380] [Info] Client received world stop packet, leaving: Removed
+[11:04:44.302] [Info] Chat: <Esther> This clue hints at hidden information.
+[11:08:52.852] [Info] Client received world stop packet, leaving: Removed
+[11:09:05.119] [Info] Client received world stop packet, leaving: Removed
+[11:12:33.829] [Info] UniverseClient: Client disconnecting...
+[11:12:33.903] [Info] Client received world stop packet, leaving: Removed
+[11:12:34.131] [Info] Clearing steam rich presence connection
+[11:12:38.589] [Info] Application: quit requested
+[11:12:38.589] [Info] Application: quitting...
+[11:12:38.589] [Info] Application: shutdown...
